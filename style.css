@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background-color: #141c2f;
+  color: whitesmoke;
+  /* font-family: 'Fira Sans', sans-serif; */
+  font-family: "Space Mono", monospace;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 645px;
+  min-width: 350px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 18px 18px 16px;
+}
+
+.logo {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.8rem;
+}
+
+.mode {
+  display: flex;
+  align-items: center;
+  font-size: small;
+}
+
+.sun-icon {
+  padding-left: 5px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 12px;
+  padding: 5px 5px 5px 10px;
+  border-radius: 10px;
+  background-color: #1f2a48;
+}
+.search i {
+  font-size: 20px;
+  color: #0079fe;
+}
+
+.text-input {
+  color: aliceblue;
+  padding: 5px;
+  font-size: 0.8rem;
+  background: none;
+  outline: none;
+  width: 220px;
+  border: none;
+}
+
+.search-btn {
+  color: whitesmoke;
+  font-size: 0.8rem;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0079fe;
+  cursor: pointer;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 12px;
+  background-color: #1f2a48;
+  border-radius: 10px;
+  min-height: 470px;
+  width: 326px;
+}
+
+.intro img {
+  height: 80px;
+  border-radius: 50%;
+}
+
+.names {
+  padding-left: 8px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.full-name {
+  font-size: large;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.username {
+  font-size: small;
+  color: #0079fe;
+}
+
+.joined {
+  color: #c5cad5;
+  font-size: 0.8rem;
+  color: #c5cad5;
+}
+
+.bio {
+  font-size: 0.8rem;
+  color: #c5cad5;
+  padding-left: 12px;
+}
+
+.social {
+  margin: 4px 10px 4px 10px;
+  padding: 12px;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #141c2f;
+}
+
+.grid-items {
+  text-align: center;
+  padding: 5px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.contact i {
+  font-size: 20px;
+}
+
+.location,
+.link,
+.twitter,
+.work {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.contact a {
+  font-size: 0.9rem;
+  color: #c5cad5;
+  text-decoration: none;
+  padding-left: 12px;
+}
+
+.grid-items-lower {
+  font-size: 0.9rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
